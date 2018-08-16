@@ -16,7 +16,9 @@ class Song
   end
   
   def self.genre
-    @@genres.collect each do |genre|
-      
+    @@genres.uniq
+  end
+  
+  
   
 end
